@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+struct book
+{
+    char name[20];
+    short prick;
+};
+int main()
+{
+    struct book bi{"211",123};
+    struct book *pd = &bi;
+    cout << bi.name << endl;
+    bi.prick = 2333;
+    cout << pd->name <<endl;
+    return 0;
+}
