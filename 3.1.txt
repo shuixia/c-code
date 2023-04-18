@@ -1,0 +1,47 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int b = getchar();//接收字符
+    putchar(b);//输出打印字符
+    int a=1;
+    while (a<=10)
+    {
+        if (a==5)
+            continue;//返回重新运行
+        printf("%d",a);
+        a++;
+    }
+//    int day;
+//    scanf ("%d",&day);
+//    switch (day)
+//    {
+//    case 1:
+//        printf ("xingqiyi\n");
+//        break;
+//    case 2:
+//        printf("xinqgier\n");
+//        break;
+//    case 3:
+//        printf ("xingqisan");
+//        break;
+//    case 4:
+//        printf("xingqisi");
+//        break;
+//    case 5:
+//        printf("xingqiwu");
+//        break;
+//    default :
+//        printf("shurucuowu");
+    //}
+//    int i=1;
+//    while (i<=100)
+//    {
+//        if(i%2 == 1)
+//            printf("%d ",i);
+//        i++;
+//    }
+    return 0;
+}
